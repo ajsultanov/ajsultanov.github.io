@@ -3021,6 +3021,7 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			width: 25em;
+			max-width: 90%;
 		}
 
 			.spotlights > section > .image img {
@@ -3030,7 +3031,7 @@ input, select, textarea {
 				height: 100%;
 				max-height: 50vh;
 				object-fit: cover;
-				object-position: left center;
+				object-position: left top;
 			}
 
 			/* .spotlights > section > .image:before {

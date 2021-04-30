@@ -1,6 +1,8 @@
 
 
 
++ https://github.com/josephg/noisejs
+
 - removed fade in animations for sidebar and main content
 - changed color + height/removed transitions for sidebar link decoration
 - removed transition from links decoration
