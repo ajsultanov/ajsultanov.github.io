@@ -1617,20 +1617,9 @@ input, select, textarea {
 			.shape {
 				clip-path: url(#myCurve);
 				background: var(--bg-light);
-				height: 100px;
+				height: 15vh;
 				width: 100%;
 			}
-
-			/* .shape {
-				border: 2px solid red;
-				top: -60px;
-				position: absolute;
-				height: 200px;
-				width: 100%;
-				background: blue;
-				-webkit-clip-path: polygon(0% 0%, 5% 0%, 10% 25%, 15% 0%, 85% 0%, 90% 25%, 95% 0%, 100% 0%, 100% 100%, 95% 100%, 90% 75%, 85% 100%, 15% 100%, 10% 75%, 5% 100%, 0% 100%);
-				clip-path: polygon(0% 0%, 5% 0%, 10% 25%, 15% 0%, 85% 0%, 90% 25%, 95% 0%, 100% 0%, 100% 100%, 95% 100%, 90% 75%, 85% 100%, 15% 100%, 10% 75%, 5% 100%, 0% 100%);
-			} */
 
 			body.is-ie .wrapper.fullscreen {
 				height: 60vh;
