@@ -1363,6 +1363,11 @@ input, select, textarea {
 		min-height: 20.5em;
 	}
 
+	.spotlights h2 {
+		padding-left: 0.5em;
+		border-left: 5px dotted #6af;
+	}
+
 		body.is-ie .spotlights > section {
 			min-height: 0;
 		}
