@@ -209,4 +209,4 @@ function copyEmail() {
 	readText().then(writeText)
 }
 
-console.log('%cThank you for visiting my website. \n -A 🥰 ', 'background: #222; color: #aaa; font-size: 14px; padding: 10px;');
+console.log('%cThank you for visiting my website. 🥰   -A', 'background: #222; color: #aaa; font-size: 14px; font-family: monospace; padding: 1em 2em; line-height: 1.4em;');
