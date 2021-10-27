@@ -449,6 +449,15 @@ input, select, textarea {
 				display: none;
 			}
 
+		button.spec,
+		.button.spec {
+			border-color: #6af !important;
+		}
+		button.spec:hover,
+		.button.spec:hover {
+			border-color: #66c !important;
+		}
+
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
@@ -1596,7 +1605,8 @@ input, select, textarea {
 
 		/* Home + Contact Background */
 		.wrapper.style1 {
-			background-color: var(--bg-dark);
+			/* background-color: var(--bg-dark); */
+			background: linear-gradient(90deg, var(--bg-dark) 20%, var(--bg-light) 90%);
 		}
 
 		/* Home Footer */
