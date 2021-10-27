@@ -1377,6 +1377,9 @@ input, select, textarea {
 		padding-left: 0.5em;
 		border-left: 5px dotted #6af;
 	}
+	h2.no-border  {
+		border: none;
+	}
 
 		body.is-ie .spotlights > section {
 			min-height: 0;
