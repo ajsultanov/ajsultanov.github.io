@@ -9,6 +9,10 @@
 :root {
 	--bg-dark: #1e1e1e;
 	--bg-light: #252525;
+	--bg-0: #000000;
+	--bg-1: #151515;
+	--bg-3: #2A2A2A;
+	--bg-4: #404040;
 }
 
 html, body, div, span, applet, object,
@@ -126,6 +130,9 @@ input, select, textarea {
 		font-weight: normal;
 		line-height: 1.75;
 	}
+		#wave {
+			color: rgba(255, 255, 255, 1);
+		}
 
 		@media screen and (max-width: 1680px) {
 
@@ -1194,6 +1201,7 @@ input, select, textarea {
 /* Menu */
 
 	ul.menu {
+		font-family: Roboto Mono;
 		list-style: none;
 		padding: 0;
 	}
