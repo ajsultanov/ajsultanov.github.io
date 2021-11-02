@@ -1629,6 +1629,11 @@ input, select, textarea {
 			background-color: var(--bg-light);
 		}
 
+		.wrapper.style3 img {
+			/* max-height: 100vh; */
+			max-width: 60vw;
+		}
+
 		/* ? */
 		.wrapper.style3-alt {
 			background-color: #953d75;
